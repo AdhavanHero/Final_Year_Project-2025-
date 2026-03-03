@@ -30,15 +30,13 @@ The dataset used in this project evaluates water quality across various bodies. 
 2.  **Data Preprocessing:** Handling missing values and ensuring data quality.
 3.  **Exploratory Data Analysis (EDA):** Utilizing `seaborn` and `matplotlib` to visualize correlations, feature distributions, and outliers.
 4.  **Modeling:** Training a Support Vector Machine (SVM) model.
-5.  **Export:** Saving the trained SVM model using `joblib` (`svm.pkl`) for future deployment.
+5.  **Export:** Saving the trained SVM model using `joblib` (`Rand.pkl`) for future deployment.
 
 ## Setup & Installation
 
 To run this project locally, ensure you have Python installed, and then install the required libraries.
 
 ```bash
-# Clone the repository
-git clone <your-repository-url>
 
 # Install required dependencies
 pip install pandas seaborn matplotlib scikit-learn joblib
